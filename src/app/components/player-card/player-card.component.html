@@ -1,0 +1,11 @@
+<mat-card class="playerCard">
+    <mat-card-title>
+      <div class="circleNumber init"><div class="value">{{player.init}}</div></div><span class="cap">{{player.name}}</span>
+    </mat-card-title>
+    <mat-card-subtitle>
+      Level {{player.level}}
+    </mat-card-subtitle>
+    <mat-card-actions>
+      <button mat-raised-button color="warn" (click)="Remove(player)">Remove</button>
+    </mat-card-actions>
+  </mat-card>

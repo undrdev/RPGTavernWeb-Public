@@ -1,0 +1,405 @@
+{
+    cr:"1": {
+        "Beast": [
+            14, 15
+        ],
+        "Construct": [
+            13, 14, 15
+        ],
+        "Dragon": [14],
+        "Elemental": [13],
+        "Fey": [
+            13, 14, 15
+        ],
+        "Humanoid": [
+            13, 14, 15
+        ],
+        "Monstrosity": [14],
+        "Plant": [13],
+        "Undead": [9, 13]
+    },
+    cr:"1/2": {
+        "Beast": [
+            11, 13
+        ],
+        "Construct": [
+            13, 14
+        ],
+        "Dragon": [13],
+        "Fey": [
+            13, 14, 15
+        ],
+        "Humanoid": [
+            13, 14
+        ],
+        "Humanoid (any race)": [13],
+        "Humanoid (shapechanger": [15],
+        "Monstrosity": [
+            13, 14
+        ],
+        "Plant": [13],
+        "Undead": [12, 13]
+    },
+    cr:"1/4": {
+        "Aberration": [14],
+        "Beast": [
+            13, 14
+        ],
+        "Construct": [
+            13, 14, 15
+        ],
+        "Fey": [14],
+        "Fiend": [14],
+        "Humanoid": [
+            12, 13, 14, 15
+        ],
+        "Ooze": [13, 15]
+    },
+    cr:"1/8": {
+        "Beast": [13],
+        "Fey": [12],
+        "Monstrosity": [13],
+        "Undead": [13]
+    },
+    cr:"10": {
+        "Celestial": [18],
+        "Construct": [
+            17, 18
+        ],
+        "Elemental": [
+            16, 17
+        ],
+        "Fey": [17],
+        "Fiend": [
+            15, 17
+        ],
+        "Swarm of tiny undead": [17]
+    },
+    cr:"11": {
+        "Aberration": [16],
+        "Beast": [17],
+        "Celestial": [
+            16, 17
+        ],
+        "Construct": [20],
+        "Dragon": [17],
+        "Fey": [
+            16, 17, 18, 20
+        ],
+        "Fiend": [
+            15, 18
+        ],
+        "Plant": [15],
+        "Undead": [16, 18]
+    },
+    cr:"12": {
+        "Beast": [14],
+        "Celestial": [
+            15, 20
+        ],
+        "Construct": [18],
+        "Dragon": [18],
+        "Fey": [18],
+        "Fiend": [
+            15, 18
+        ],
+        "Giant": [17],
+        "Monstrosity": [17],
+        "Undead": [16, 17, 18]
+    },
+    cr:"13": {
+        "Beast": [15],
+        "Construct": [18],
+        "Fiend": [18],
+        "Undead": [16, 18, 19]
+    },
+    cr:"14": {
+        "Construct": [17],
+        "Dragon": [
+            18, 19
+        ],
+        "Fiend": [19],
+        "Monstrosity": [17, 18]
+    },
+    cr:"15": {
+        "Aberration": [18],
+        "Celestial": [18],
+        "Dragon": [19],
+        "Elemental": [19],
+        "Fiend": [17],
+        "Swarm of tiny elementals": [17]
+    },
+    cr:"16": {
+        "Dragon": [
+            18, 19
+        ],
+        "Fey": [17, 18]
+    },
+    cr:"17": {
+        "Aberration": [19],
+        "Dragon": [19],
+        "Elemental": [
+            16, 20
+        ],
+        "Fey": [
+            17, 18
+        ],
+        "Fiend": [18]
+    },
+    cr:"18": {
+        "Dragon": [20],
+        "Fey": [18]
+    },
+    cr:"19": {
+        "Aberration": [18],
+        "Giant": [19]
+    },
+    cr:"2": {
+        "Beast": [14],
+        "Celestial": [14],
+        "Construct": [
+            12, 13
+        ],
+        "Dragon": [
+            13, 16, 17
+        ],
+        "Elemental": [
+            13, 14
+        ],
+        "Fey": [
+            14, 15
+        ],
+        "Fiend": [14],
+        "Humanoid": [
+            13, 14, 15
+        ],
+        "Monstrosity": [
+            13, 14, 15
+        ],
+        "Plant": [13],
+        "Swarm of tiny monstrosities": [15],
+        "Undead": [13]
+    },
+    cr:"20": {
+        "Undead": [20]
+    },
+    cr:"21": {
+        "Fey": [15],
+        "Fiend": [17, 20]
+    },
+    cr:"22": {
+        "Dragon": [
+            20, 22
+        ],
+        "Fiend": [19],
+        "Giant": [20]
+    },
+    cr:"23": {
+        "Fiend": [21]
+    },
+    cr:"24": {
+        "Dragon": [22],
+        "Fiend": [19]
+    },
+    cr:"25": {
+        "Fiend": [20]
+    },
+    cr:"26": {
+        "Monstrosity": [25]
+    },
+    cr:"27": {
+        "Fiend": [19]
+    },
+    cr:"3": {
+        "Aberration": [
+            14, 15
+        ],
+        "Beast": [
+            14, 15, 18
+        ],
+        "Construct": [14],
+        "Dragon": [
+            17, 18
+        ],
+        "Fey": [
+            13,
+            14,
+            15,
+            16,
+            17
+        ],
+        "Giant": [13],
+        "Humanoid": [
+            15, 16
+        ],
+        "Monstrosity": [
+            14, 15
+        ],
+        "Plant": [
+            14, 15
+        ],
+        "Swarm of tiny beasts": [13],
+        "Swarm of tiny constructs": [14],
+        "Swarm of tiny fey": [13],
+        "Undead": [11, 16]
+    },
+    cr:"4": {
+        "Aberration": [
+            14, 15, 16
+        ],
+        "Beast": [15],
+        "Celestial": [
+            14, 16
+        ],
+        "Dragon": [16],
+        "Fey": [
+            13, 15
+        ],
+        "Giant": [
+            14, 15, 17
+        ],
+        "Humanoid": [
+            13, 14, 15, 17
+        ],
+        "Humanoid (any race)": [
+            16, 17
+        ],
+        "Humanoid (shapechanger": [16],
+        "Monstrosity": [14],
+        "Ooze": [
+            13, 14
+        ],
+        "Plant": [
+            15, 16
+        ],
+        "Swarm of tiny aberrations": [15],
+        "Swarm of tiny beasts": [14],
+        "Undead": [12, 14, 15, 16]
+    },
+    cr:"5": {
+        "Aberration": [
+            14, 15
+        ],
+        "Beast": [
+            14, 15, 16
+        ],
+        "Celestial": [
+            14, 15, 16
+        ],
+        "Construct": [
+            15, 16
+        ],
+        "Dragon": [
+            15, 16
+        ],
+        "Fey": [
+            15, 18
+        ],
+        "Fiend": [
+            15, 17
+        ],
+        "Humanoid": [
+            14,
+            15,
+            16,
+            17,
+            18
+        ],
+        "Humanoid (any race)": [18],
+        "Monstrosity": [
+            14, 15, 16, 17
+        ],
+        "Ooze": [12],
+        "Plant": [
+            15, 17
+        ],
+        "Undead": [11, 12, 15, 16]
+    },
+    cr:"6": {
+        "Aberration": [16],
+        "Beast": [15],
+        "Construct": [16],
+        "Dragon": [
+            15, 16, 17
+        ],
+        "Elemental": [15],
+        "Fey": [
+            15, 16, 17
+        ],
+        "Fiend": [
+            13, 15, 16
+        ],
+        "Giant": [17],
+        "Humanoid": [
+            17, 18
+        ],
+        "Monstrosity": [
+            13, 14, 15
+        ],
+        "Plant": [17],
+        "Swarm of medium undead": [16],
+        "Swarm of tiny beasts": [15],
+        "Undead": [14, 15, 17]
+    },
+    cr:"7": {
+        "Aberration": [
+            15, 16
+        ],
+        "Beast": [15],
+        "Construct": [14],
+        "Dragon": [16],
+        "Elemental": [16],
+        "Fey": [
+            14, 15
+        ],
+        "Fiend": [
+            14, 15, 16, 17
+        ],
+        "Giant": [15],
+        "Humanoid": [16],
+        "Humanoid (shadow fey)": [16],
+        "Plant": [16],
+        "Swarm of tiny elementals": [15],
+        "Undead": [15]
+    },
+    cr:"8": {
+        "Aberration": [
+            16, 19
+        ],
+        "Beast": [17],
+        "Celestial": [16],
+        "Construct": [
+            16, 17
+        ],
+        "Dragon": [17],
+        "Elemental": [17],
+        "Fey": [17],
+        "Fiend": [
+            16, 18
+        ],
+        "Giant": [12],
+        "Humanoid": [15],
+        "Humanoid (any race)": [14],
+        "Monstrosity": [
+            13, 15
+        ],
+        "Plant": [16],
+        "Undead": [14, 17]
+    },
+    cr:"9": {
+        "Aberration": [17],
+        "Construct": [18],
+        "Dragon": [
+            17, 18
+        ],
+        "Elemental": [17],
+        "Fiend": [14],
+        "Giant": [17],
+        "Humanoid": [12],
+        "Monstrosity": [
+            15, 16, 17
+        ],
+        "Ooze": [7],
+        "Plant": [16]
+    }
+}

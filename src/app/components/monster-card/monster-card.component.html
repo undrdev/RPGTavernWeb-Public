@@ -1,0 +1,69 @@
+<mat-card>
+    <mat-card-title>
+      {{this.selectedMonster.name}} <mat-icon class="icon-button right" aria-hidden="false" aria-label="Close" (click)="this.ClearMonster()">close</mat-icon>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <span class="cap">{{this.selectedMonster.size}}</span> {{this.selectedMonster.type}}, {{this.selectedMonster.alignment}}
+    </mat-card-subtitle>
+    <mat-card-content class="flex column">
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>General</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p><strong>Armor Class</strong> {{this.selectedMonster.armor_class}}</p>
+          <p><strong>Hit Points</strong> {{this.selectedMonster.hit_points}} ({{this.selectedMonster.hit_dice}})</p>
+          <p>
+            <strong>Speed</strong>
+            <span *ngIf="this.selectedMonster.speed.walk" class="cap"> Walk {{this.selectedMonster.speed.walk}}ft.</span>
+            <span *ngIf="this.selectedMonster.speed.fly" class="cap"> Fly {{this.selectedMonster.speed.fly}}ft.</span>
+            <span *ngIf="this.selectedMonster.speed.swim" class="cap"> Swim {{this.selectedMonster.speed.swim}}ft.</span>
+            <span *ngIf="this.selectedMonster.speed.climb" class="cap"> Climb {{this.selectedMonster.speed.climb}}ft.</span>
+            <span *ngIf="this.selectedMonster.speed.burrow" class="cap"> Burrow {{this.selectedMonster.speed.burrow}}ft.</span>
+            <span *ngIf="this.selectedMonster.speed.crawl" class="cap"> Crawl {{this.selectedMonster.speed.crawl}}ft.</span>
+          </p>
+          <div class="flex row">
+            <div class="flex column"><div><strong>STR</strong></div><div>{{this.selectedMonster.strength}}</div></div>
+            <div class="flex column"><div><strong>STR</strong></div><div>{{this.selectedMonster.dexterity}}</div></div>
+            <div class="flex column"><div><strong>STR</strong></div><div>{{this.selectedMonster.constitution}}</div></div>
+            <div class="flex column"><div><strong>STR</strong></div><div>{{this.selectedMonster.intelligence}}</div></div>
+            <div class="flex column"><div><strong>STR</strong></div><div>{{this.selectedMonster.wisdom}}</div></div>
+            <div class="flex column"><div><strong>STR</strong></div><div>{{this.selectedMonster.charisma}}</div></div>
+          </div>
+          <p><strong>Skills </strong>{{this.skillString}}</p>
+          <p class="cap" *ngIf="this.selectedMonster.damage_immunities.length > 0"><strong>Damage Immunities</strong> {{this.selectedMonster.damage_immunities}}</p>
+          <p *ngIf="this.selectedMonster.damage_resistances.length > 0"><strong>Damage Resistances</strong> {{this.selectedMonster.damage_resistances}}</p>
+          <p *ngIf="this.selectedMonster.damage_vulnerabilities.length > 0"><strong>Vulnerabilities</strong> {{this.selectedMonster.damage_vulnerabilities}}</p>
+          <p *ngIf="this.selectedMonster.condition_immunities.length > 0"><strong>Condidtion Immunities</strong> {{this.selectedMonster.condition_immunities}}</p>
+          <p class="cap" *ngIf="this.selectedMonster.senses.length > 0"><strong>Senses</strong> {{this.selectedMonster.senses}}</p>
+          <p *ngIf="this.selectedMonster.languages.length > 0"><strong>Languages</strong> {{this.selectedMonster.languages}}</p>
+          <p><strong>Challenge </strong> {{this.selectedMonster.challenge_rating}}</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel *ngIf="this.selectedMonster.special_abilities">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Special</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p *ngFor="let special of this.selectedMonster.special_abilities"><strong>{{special.name}}</strong> {{special.desc}}</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel *ngIf="this.selectedMonster.actions">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Actions</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p *ngFor="let action of this.selectedMonster.actions"><strong>{{action.name}}</strong> {{action.desc}}</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel *ngIf="this.selectedMonster.reactions">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Reactions</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p *ngFor="let action of this.selectedMonster.reactions"><strong>{{action.name}}</strong> {{action.desc}}</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel  *ngIf="this.selectedMonster.legendary_actions">
+          <mat-expansion-panel-header>
+            <mat-panel-title>Legendary Actions</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p *ngIf="this.selectedMonster.legendary_desc">{{this.selectedMonster.legendary_desc}}</p>
+          <p *ngFor="let action of this.selectedMonster.legendary_actions"><strong>{{action.name}}</strong> {{action.desc}}</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>

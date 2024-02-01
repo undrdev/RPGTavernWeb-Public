@@ -1,0 +1,30 @@
+.playerCard {
+  width: 80%;
+}
+
+.circleNumber {
+  float: right;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circleNumber.init {
+  border: 1px solid lightslategray;
+  color: lightslategray;
+}
+/*# sourceMappingURL=player-card.component.css.map */

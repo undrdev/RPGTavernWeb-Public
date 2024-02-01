@@ -1,0 +1,96 @@
+@import '../../../styles.scss';
+
+#content {
+  min-height: 100%;
+  height: 100%;
+  font-size: 1rem;
+  &.handset{
+    margin: 5px;
+  }
+
+  &.medium{
+    margin: 10px 0;
+  }
+
+  &.full{
+    margin: 10px 0;
+  }
+}
+
+.mat-tab-group{
+  height: 100% !important;
+  ::ng-deep .mat-tab-body-wrapper{
+    height: 100%;
+    .mat-tab-body{
+      padding: 10px !important;
+      .mat-tab-body-content{
+        display: flex;
+        flex-direction: column;
+        app-player-form, app-player-list{
+          flex:1;
+        }
+      }
+    }
+  }
+}
+
+.circleNumber{
+  float: right;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  &.init{
+    border: 1px solid lightslategray;
+    color: lightslategray;
+  }
+
+  &.cr{
+    border: 1px solid red;
+    color: red;
+  }
+}
+
+.playerTile, .monsterTile{
+  height:50%;
+}
+
+.monsterList, .groupTile{
+  width: 100%;
+}
+
+.dataRow{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  span{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    strong{
+      flex:1;
+    }
+  }
+}
+
+.spinnerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.nextBtn{
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 20px;
+  &.handset{
+    width: 100%;
+    margin: 10px 0;
+
+  }
+}

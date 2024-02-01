@@ -1,0 +1,21 @@
+.playerCard{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+  }
+
+  .circleNumber{
+    float: right;
+    background-color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    &.init{
+      border: 1px solid lightslategray;
+      color: lightslategray;
+    }
+  }

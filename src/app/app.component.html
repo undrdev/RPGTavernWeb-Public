@@ -1,0 +1,77 @@
+<!-- <header>
+  <a id="logo" href="#">RGP Tavern</a>
+</header> -->
+<mat-toolbar color="primary">
+  <mat-toolbar-row color="primary">
+    <button
+      mat-icon-button
+      *ngIf="sidenav.mode === 'over'"
+      (click)="sidenav.toggle()"
+    >
+      <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+      <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+    </button>
+    RPG Tavern
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <span *ngIf="authService.userData">
+      <img
+        class="avatar mat-elevation-z8"
+        src="{{ authService.userData.photoURL }}"
+      />
+      <h4 class="name">{{ authService.userData.displayName }}</h4>
+    </span>
+    <span *ngIf="authService.userData == null">
+      <img *ngIf="authService.userData == null" class="avatar mat-elevation-z8" src="../assets/imgs/die.png" />
+      <h4 class="name">Anonymous</h4>
+    </span>
+    <mat-divider></mat-divider>
+    <button mat-button class="menu-button">
+      <a routerLink="/quick-encounter" routerLinkActive="active">
+        <span>Quick Encounter</span>
+        <mat-icon>gavel</mat-icon>
+      </a>
+    </button>
+    <button mat-button  *ngIf="authService.userData" class="menu-button">
+      <a routerLink="/design" routerLinkActive="active">
+        <span>Designer</span>
+        <mat-icon>architecture</mat-icon>
+      </a>
+    </button>
+    <button mat-button  *ngIf="authService.userData" class="menu-button">
+      <a routerLink="compendium" routerLinkActive="active">
+        <span>Compendium</span>
+        <mat-icon>import_contacts</mat-icon>
+      </a>
+    </button>
+    <button mat-button class="menu-button">
+      <a routerLink="about" routerLinkActive="active">
+        <span>About</span>
+        <mat-icon>help</mat-icon>
+      </a>
+    </button>
+    <mat-divider></mat-divider>
+    <h4 class="login-title" *ngIf="authService.userData == null">
+      Login With
+    </h4>
+    <button mat-button *ngIf="authService.userData == null" class="login-button" (click)="authService.GoogleAuth()">
+      <span>Google</span>
+      <img src="../assets/icons/google-g-2015.svg" class="signin-icon">
+    </button>
+    <button mat-button *ngIf="authService.userData == null" class="login-button" (click)="authService.TwitterAuth()">
+      <span>Twitter</span>
+      <img src="../assets/icons/twitter-6.svg" class="signin-icon">
+    </button>
+    <button mat-button *ngIf="authService.userData" class="login-button" (click)="authService.SignOut()">
+      <span>Sign Out</span>
+      <mat-icon>exit_to_app</mat-icon>
+    </button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div [class]="(this.layout === 'handset' ? 'mobile' :'')  + ' content mat-elevation-z8'">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,429 @@
+{
+    "12": {
+        "undead": [
+            17, 16, 18
+        ],
+        "fiend": [
+            18, 15
+        ],
+        "dragon": [18],
+        "fey": [18],
+        "construct": [18],
+        "giant": [17],
+        "celestial": [
+            20, 15
+        ],
+        "monstrosity": [17],
+        "beast": [14]
+    },
+    "1": {
+        "undead": [
+            9, 13
+        ],
+        "monstrosity": [14],
+        "fey": [
+            15, 13, 14
+        ],
+        "construct": [
+            13, 15, 14
+        ],
+        "plant": [13],
+        "beast": [
+            14, 15
+        ],
+        "dragon": [14],
+        "humanoid": [
+            13, 15, 14
+        ],
+        "elemental": [13]
+    },
+    "11": {
+        "fey": [
+            18, 20, 17, 16
+        ],
+        "celestial": [
+            17, 16
+        ],
+        "undead": [
+            16, 18
+        ],
+        "fiend": [
+            18, 15
+        ],
+        "construct": [20],
+        "dragon": [17],
+        "plant": [15],
+        "aberration": [16],
+        "beast": [17]
+    },
+    "4": {
+        "undead": [
+            12, 15, 16, 14
+        ],
+        "monstrosity": [14],
+        "beast": [15],
+        "fey": [
+            15, 13
+        ],
+        "plant": [
+            15, 16
+        ],
+        "swarm of tiny beasts": [15],
+        "humanoid": [
+            14, 15, 17, 13
+        ],
+        "aberration": [
+            15, 16, 14
+        ],
+        "dragon": [16],
+        "celestial": [
+            16, 14
+        ],
+        "giant": [
+            15, 14, 17
+        ],
+        "humanoid (shapechanger": [16],
+        "swarm of Tiny aberrations": [15],
+        "ooze": [
+            13, 14
+        ],
+        "Swarm of Tiny beasts": [15],
+        "swarm of Tiny beasts": [14],
+        "Humanoid (Any Race)": [16, 17]
+    },
+    "8": {
+        "fey": [17],
+        "celestial": [16],
+        "monstrosity": [
+            15, 13
+        ],
+        "undead": [
+            17, 14
+        ],
+        "elemental": [17],
+        "humanoid": [15],
+        "fiend": [
+            18, 16
+        ],
+        "dragon": [17],
+        "plant": [16],
+        "construct": [
+            17, 16
+        ],
+        "aberration": [
+            16, 19
+        ],
+        "beast": [17],
+        "giant": [12],
+        "Humanoid (any race)": [14]
+    },
+    "10": {
+        "construct": [
+            18, 17
+        ],
+        "swarm of Tiny undead": [17],
+        "fiend": [
+            15, 17
+        ],
+        "fey": [17],
+        "celestial": [18],
+        "elemental": [16, 17]
+    },
+    "1/2": {
+        "monstrosity": [
+            14, 13
+        ],
+        "beast": [
+            13, 11
+        ],
+        "fey": [
+            14, 15, 13
+        ],
+        "humanoid": [
+            13, 14
+        ],
+        "construct": [
+            14, 13
+        ],
+        "undead": [
+            13, 12
+        ],
+        "dragon": [13],
+        "plant": [13],
+        "humanoid (shapechanger": [15],
+        "humanoid (any race)": [13]
+    },
+    "3": {
+        "monstrosity": [
+            15, 14
+        ],
+        "beast": [
+            15, 14, 18
+        ],
+        "aberration": [
+            14, 15
+        ],
+        "humanoid": [
+            14, 15
+        ],
+        "plant": [
+            14, 15
+        ],
+        "Swarm of Tiny constructs": [14],
+        "construct": [14],
+        "dragon": [
+            17, 18
+        ],
+        "fey": [
+            17,
+            14,
+            13,
+            15,
+            16
+        ],
+        "undead": [
+            16, 11
+        ],
+        "giant": [13],
+        "swarm of Tiny beasts": [13],
+        "swarm of Tiny fey": [13],
+        "Humanoid": [15, 16]
+    },
+    "15": {
+        "celestial": [18],
+        "swarm of Tiny elementals": [17],
+        "dragon": [19],
+        "aberration": [18],
+        "elemental": [19],
+        "fiend": [17]
+    },
+    "6": {
+        "undead": [
+            17, 15, 14
+        ],
+        "construct": [16],
+        "swarm of tiny beasts": [15],
+        "fiend": [
+            16, 15, 13
+        ],
+        "dragon": [
+            16, 17, 15
+        ],
+        "humanoid": [
+            17, 18
+        ],
+        "aberration": [16],
+        "beast": [15],
+        "fey": [
+            16, 17, 15
+        ],
+        "monstrosity": [
+            15, 13, 14
+        ],
+        "elemental": [15],
+        "swarm of Medium undead": [16],
+        "plant": [17],
+        "giant": [17]
+    },
+    "5": {
+        "celestial": [
+            16, 14, 15
+        ],
+        "fey": [
+            15, 18
+        ],
+        "aberration": [
+            14, 15
+        ],
+        "fiend": [
+            15, 17
+        ],
+        "construct": [
+            16, 15
+        ],
+        "humanoid": [
+            18,
+            15,
+            14,
+            17,
+            16
+        ],
+        "beast": [
+            15, 14, 16
+        ],
+        "monstrosity": [
+            15, 17, 14, 16
+        ],
+        "undead": [
+            15, 16, 11, 12
+        ],
+        "dragon": [
+            15, 16
+        ],
+        "plant": [
+            17, 15
+        ],
+        "ooze": [12],
+        "Humanoid (Any Race)": [18]
+    },
+    "2": {
+        "beast": [14],
+        "elemental": [
+            13, 14
+        ],
+        "humanoid": [
+            14, 13, 15
+        ],
+        "fey": [
+            15, 14
+        ],
+        "construct": [
+            12, 13
+        ],
+        "swarm of Tiny monstrosities": [15],
+        "fiend": [14],
+        "monstrosity": [
+            13, 15, 14
+        ],
+        "dragon": [
+            16, 17, 13
+        ],
+        "undead": [13],
+        "celestial": [14],
+        "plant": [13]
+    },
+    "1/4": {
+        "fey": [14],
+        "ooze": [
+            15, 13
+        ],
+        "humanoid": [
+            15, 12, 14, 13
+        ],
+        "beast": [
+            13, 14
+        ],
+        "fiend": [14],
+        "construct": [
+            13, 14, 15
+        ],
+        "aberration": [14]
+    },
+    "17": {
+        "elemental": [
+            20, 16
+        ],
+        "dragon": [19],
+        "fey": [
+            17, 18
+        ],
+        "fiend": [18],
+        "aberration": [19]
+    },
+    "9": {
+        "monstrosity": [
+            16, 17, 15
+        ],
+        "fiend": [14],
+        "dragon": [
+            18, 17
+        ],
+        "aberration": [17],
+        "elemental": [17],
+        "giant": [17],
+        "ooze": [7],
+        "plant": [16],
+        "construct": [18],
+        "Humanoid": [12]
+    },
+    "14": {
+        "fiend": [19],
+        "dragon": [
+            18, 19
+        ],
+        "construct": [17],
+        "monstrosity": [18, 17]
+    },
+    "7": {
+        "aberration": [
+            16, 15
+        ],
+        "undead": [15],
+        "fiend": [
+            17, 16, 15, 14
+        ],
+        "dragon": [16],
+        "humanoid": [18],
+        "humanoid (shadow fey)": [16],
+        "fey": [
+            15, 14
+        ],
+        "construct": [14],
+        "elemental": [16],
+        "beast": [15],
+        "swarm of Tiny elementals": [15],
+        "giant": [15],
+        "plant": [16],
+        "Humanoid": [16]
+    },
+    "1/8": {
+        "fey": [12],
+        "undead": [13],
+        "monstrosity": [13],
+        "beast": [13]
+    },
+    "21": {
+        "fiend": [
+            20, 17
+        ],
+        "fey": [15]
+    },
+    "22": {
+        "fiend": [19],
+        "dragon": [
+            22, 20
+        ],
+        "giant": [20]
+    },
+    "27": {
+        "fiend": [19]
+    },
+    "23": {
+        "fiend": [21]
+    },
+    "25": {
+        "fiend": [20]
+    },
+    "24": {
+        "fiend": [19],
+        "dragon": [22]
+    },
+    "13": {
+        "beast": [15],
+        "construct": [18],
+        "undead": [
+            18, 19, 16
+        ],
+        "fiend": [18]
+    },
+    "16": {
+        "dragon": [
+            18, 19
+        ],
+        "fey": [18, 17]
+    },
+    "18": {
+        "dragon": [20],
+        "fey": [18]
+    },
+    "20": {
+        "undead": [20]
+    },
+    "19": {
+        "giant": [19],
+        "aberration": [18]
+    },
+    "26": {
+        "monstrosity": [25]
+    }
+}

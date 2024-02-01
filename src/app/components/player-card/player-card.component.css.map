@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,GAAG;CACX;;AAED,AAAA,aAAa,CAAA;EACX,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAKpB;;AAdD,AAUE,aAVW,AAUV,KAAK,CAAA;EACJ,MAAM,EAAE,wBAAwB;EAChC,KAAK,EAAE,cAAc;CACtB",
+    "sources": [
+        "player-card.component.scss"
+    ],
+    "names": [],
+    "file": "player-card.component.css"
+}

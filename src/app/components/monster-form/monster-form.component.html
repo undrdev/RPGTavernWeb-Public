@@ -1,0 +1,91 @@
+<form [class]="this.layout + ' flex column vertForm'" [formGroup]="this.encounterFormGroup" (ngSubmit)="this.GenerateCombat()">
+    <div class="flex column w-100">
+      <mat-form-field class="w-100">
+        <mat-label>Difficulty</mat-label>
+        <mat-select matNativeControl formControlName="difficulty" (selectionChange)="this.CalcTotalCR()" required [(ngModel)]="this.difficulty">
+          <mat-option *ngFor="let dif of difficulties" [value]="dif">{{dif}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-label>Number of Monster Groups</mat-label>
+      <div class="buttonGroup">
+        <button  mat-mini-fab [disabled]="this.numMonsters==1" type="button" (click)="this.RemoveMonsterForm(this.numMonsters-1)" color="accent">
+          <mat-icon>remove</mat-icon>
+        </button>
+        <div class="value">
+          {{this.numMonsters}}
+        </div>
+        <button mat-mini-fab [disabled]="this.crLeft <= 0" type="button" (click)="this.AddMonsterForm()" color="primary">
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="CRBlock w-100">
+      <div class="flex row">
+        <mat-label>CR:</mat-label>
+        <mat-label>{{this.totalCr - this.crLeft}}</mat-label>
+        <mat-label>Max CR:</mat-label>
+        <mat-label>{{this.totalCr}}</mat-label>
+      </div>
+      <div class="flex row space-between w-100">
+        <div class="">Total: <strong>{{this.totalCr}}</strong></div>
+        <div class="">Remaining: <strong>{{this.crLeft}}</strong></div>
+      </div>
+    </div>
+    <ng-container formArrayName="monsters">
+      <mat-grid-list class="monsterList" [cols]="this.layout =='handset'  ? 1 : 2" rowHeight="410px">
+        <mat-grid-tile *ngFor="let form of this.monsterFormArray.controls; index as i" class="groupTile" @fade>
+          <mat-card class="monsterCard">
+            <mat-card-content [formGroupName]="i" class="vertForm">
+              <h2>Monster Group {{i+1}}</h2>
+              <mat-label>Number of Monsters</mat-label>
+                <div class="buttonGroup">
+                  <button  mat-mini-fab [disabled]="this.monsterSearch[i].numMonsters == 1" type="button" (click)="this.ChangeMonsterCount(i, -1)" color="accent">
+                    <mat-icon>remove</mat-icon>
+                  </button>
+                  <div class="value">
+                    {{this.monsterSearch[i].numMonsters}}
+                  </div>
+                  <button mat-mini-fab [disabled]="!this.monsterSearch[i].canAdd" type="button" (click)="this.ChangeMonsterCount(i, 1)" color="primary">
+                    <mat-icon>add</mat-icon>
+                  </button>
+                </div>
+                <mat-form-field>
+                  <mat-label>Challenge Rating</mat-label>
+                  <mat-select matNativeControl formControlName="cr" (selectionChange)="this.UpdateEncounter(i)" [(ngModel)]="this.monsterSearch[i].cr">
+                    <mat-option label="--Filter By CR--">--Filter By CR--</mat-option>
+                    <mat-option *ngFor="let cr of this.monsterSearch[i].crList" [value]="cr">{{cr}}</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                  <mat-label>Type</mat-label>
+                  <mat-select matNativeControl formControlName="type" (selectionChange)="this.UpdateEncounter(i)" [(ngModel)]="this.monsterSearch[i].type">
+                    <mat-option label="--Filter By Type--">--Filter By Type--</mat-option>
+                    <mat-option *ngFor="let type of this.monsterSearch[i].types" [value]="type">{{type}}</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                  <mat-label>Armor Class</mat-label>
+                  <mat-select matNativeControl formControlName="ac" [(ngModel)]="this.monsterSearch[i].ac">
+                    <mat-option label="--Filter By Armor Class--">--Filter By Armor Class--</mat-option>
+                    <mat-option *ngFor="let ac of this.monsterSearch[i].acList" [value]="ac">{{ac}}</mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <div class="monster" *ngIf="this.monsterSearch[i].monsters.length>0">
+                  {{this.monsterSearch[i].monsters[0].name}}
+                </div>
+            </mat-card-content>
+            <mat-card-actions>
+              <div class="flex row button'">
+                <button @fade mat-raised-button type="button" color="primary" (click)="this.GetMonsters(i)" *ngIf="this.monsterSearch[i].numMonsters>0">Get Monsters</button>
+                <div class="spacer" *ngIf="this.monsterFormArray.length>1"></div>
+                <button @fade mat-raised-button type="button" *ngIf="this.monsterFormArray.length>1" color="warn" (click)="this.RemoveMonsterForm(i)">Remove Group</button>
+              </div>
+            </mat-card-actions>
+          </mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </ng-container>
+    <div class="button w-100">
+      <button mat-raised-button color="primary" type="submit" class="w-100">Generate Combat</button>
+    </div>
+  </form>

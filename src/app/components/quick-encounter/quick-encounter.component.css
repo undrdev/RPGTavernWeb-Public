@@ -1,0 +1,262 @@
+#content {
+  min-height: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+
+#content.handset {
+  margin: 5px;
+}
+
+#content.medium {
+  margin: 10px 20%;
+}
+
+#content.full {
+  margin: 10px 10%;
+}
+
+.cap {
+  text-transform: capitalize;
+}
+
+.circleNumber {
+  float: right;
+  background-color: white;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circleNumber.init {
+  border: 1px solid lightslategray;
+  color: lightslategray;
+}
+
+.circleNumber.cr {
+  border: 1px solid red;
+  color: red;
+}
+
+.playerCard, .monsterCard {
+  width: 80%;
+}
+
+.playerTile, .monsterTile {
+  height: 50%;
+  padding: 10px;
+}
+
+.monsterList, .groupTile {
+  width: 100%;
+}
+
+.vertForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.vertForm.handset {
+  width: 100%;
+  padding: 10px;
+}
+
+.vertForm.medium, .vertForm.full {
+  width: 50%;
+  margin-left: calc(25% - 10px);
+  padding: 10px;
+}
+
+.dataRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.dataRow span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dataRow span strong {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.spinnerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.combatList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.combatList .combatControls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.combatList .innerFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.combatList .innerFlex.handset {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.combatList .innerFlex.medium, .combatList .innerFlex.full {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.combatList .innerFlex div.mat-table.handset, .combatList .innerFlex div.mat-table.medium {
+  width: 100%;
+}
+
+.combatList .innerFlex div.mat-table.full {
+  width: 100%;
+}
+
+.combatList .innerFlex div.mat-table div.mat-row div.combatName, .combatList .innerFlex div.mat-table div.mat-row div.combatHp, .combatList .innerFlex div.mat-table div.mat-row div.combatInit {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.combatList .innerFlex div.mat-table div.mat-row.dead div.combatName, .combatList .innerFlex div.mat-table div.mat-row.dead div.combatHp, .combatList .innerFlex div.mat-table div.mat-row.dead div.combatInit {
+  color: lightgray;
+}
+
+.combatList .innerFlex div.mat-table div.combatName, .combatList .innerFlex div.mat-table div.combatHp, .combatList .innerFlex div.mat-table div.combatInit {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.combatList .innerFlex div.mat-table div.combatSelect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.combatList .innerFlex .monsterDetail {
+  padding: 10px;
+  width: 0%;
+}
+
+.icon-button {
+  cursor: pointer;
+}
+
+.icon-button.right {
+  float: right;
+}
+
+.tableInput {
+  width: 60px !important;
+}
+
+.CRBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.CRBlock div {
+  margin-left: 12px;
+}
+/*# sourceMappingURL=home.component.css.map */

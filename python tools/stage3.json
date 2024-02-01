@@ -1,0 +1,904 @@
+[
+  {
+    "cr": "12",
+    "types": [
+      {
+        "name": "Beast",
+        "ac": [14]
+      },
+      {
+        "name": "Celestial",
+        "ac": [15, 20]
+      },
+      {
+        "name": "Construct",
+        "ac": [18]
+      },
+      {
+        "name": "Dragon",
+        "ac": [18]
+      },
+      {
+        "name": "Fey",
+        "ac": [18]
+      },
+      {
+        "name": "Fiend",
+        "ac": [15, 18]
+      },
+      {
+        "name": "Giant",
+        "ac": [17]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [17]
+      },
+      {
+        "name": "Undead",
+        "ac": [16, 17, 18]
+      }
+    ]
+  },
+  {
+    "cr": "1",
+    "types": [
+      {
+        "name": "Beast",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Construct",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Dragon",
+        "ac": [14]
+      },
+      {
+        "name": "Elemental",
+        "ac": [13]
+      },
+      {
+        "name": "Fey",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [14]
+      },
+      {
+        "name": "Plant",
+        "ac": [13]
+      },
+      {
+        "name": "Undead",
+        "ac": [9, 13]
+      }
+    ]
+  },
+  {
+    "cr": "11",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [16]
+      },
+      {
+        "name": "Beast",
+        "ac": [17]
+      },
+      {
+        "name": "Celestial",
+        "ac": [16, 17]
+      },
+      {
+        "name": "Construct",
+        "ac": [20]
+      },
+      {
+        "name": "Dragon",
+        "ac": [17]
+      },
+      {
+        "name": "Fey",
+        "ac": [16, 17, 18, 20]
+      },
+      {
+        "name": "Fiend",
+        "ac": [15, 18]
+      },
+      {
+        "name": "Plant",
+        "ac": [15]
+      },
+      {
+        "name": "Undead",
+        "ac": [16, 18]
+      }
+    ]
+  },
+  {
+    "cr": "4",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [14, 15, 16]
+      },
+      {
+        "name": "Beast",
+        "ac": [15]
+      },
+      {
+        "name": "Celestial",
+        "ac": [14, 16]
+      },
+      {
+        "name": "Dragon",
+        "ac": [16]
+      },
+      {
+        "name": "Fey",
+        "ac": [13, 15]
+      },
+      {
+        "name": "Giant",
+        "ac": [14, 15, 17]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [13, 14, 15, 16, 17]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [14]
+      },
+      {
+        "name": "Ooze",
+        "ac": [13, 14]
+      },
+      {
+        "name": "Plant",
+        "ac": [15, 16]
+      },
+      {
+        "name": "Swarm of tiny aberrations",
+        "ac": [15]
+      },
+      {
+        "name": "Swarm of tiny beasts",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Undead",
+        "ac": [12, 14, 15, 16]
+      }
+    ]
+  },
+  {
+    "cr": "8",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [16, 19]
+      },
+      {
+        "name": "Beast",
+        "ac": [17]
+      },
+      {
+        "name": "Celestial",
+        "ac": [16]
+      },
+      {
+        "name": "Construct",
+        "ac": [16, 17]
+      },
+      {
+        "name": "Dragon",
+        "ac": [17]
+      },
+      {
+        "name": "Elemental",
+        "ac": [17]
+      },
+      {
+        "name": "Fey",
+        "ac": [17]
+      },
+      {
+        "name": "Fiend",
+        "ac": [16, 18]
+      },
+      {
+        "name": "Giant",
+        "ac": [12]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [13, 15]
+      },
+      {
+        "name": "Plant",
+        "ac": [16]
+      },
+      {
+        "name": "Undead",
+        "ac": [14, 17]
+      }
+    ]
+  },
+  {
+    "cr": "10",
+    "types": [
+      {
+        "name": "Celestial",
+        "ac": [18]
+      },
+      {
+        "name": "Construct",
+        "ac": [17, 18]
+      },
+      {
+        "name": "Elemental",
+        "ac": [16, 17]
+      },
+      {
+        "name": "Fey",
+        "ac": [17]
+      },
+      {
+        "name": "Fiend",
+        "ac": [15, 17]
+      },
+      {
+        "name": "Swarm of tiny undead",
+        "ac": [17]
+      }
+    ]
+  },
+  {
+    "cr": "1/2",
+    "types": [
+      {
+        "name": "Beast",
+        "ac": [11, 13]
+      },
+      {
+        "name": "Construct",
+        "ac": [13, 14]
+      },
+      {
+        "name": "Dragon",
+        "ac": [13]
+      },
+      {
+        "name": "Fey",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [13, 14]
+      },
+      {
+        "name": "Plant",
+        "ac": [13]
+      },
+      {
+        "name": "Undead",
+        "ac": [12, 13]
+      }
+    ]
+  },
+  {
+    "cr": "3",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Beast",
+        "ac": [14, 15, 18]
+      },
+      {
+        "name": "Construct",
+        "ac": [14]
+      },
+      {
+        "name": "Dragon",
+        "ac": [17, 18]
+      },
+      {
+        "name": "Fey",
+        "ac": [13, 14, 15, 16, 17]
+      },
+      {
+        "name": "Giant",
+        "ac": [13]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [14, 15, 16]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Plant",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Swarm of tiny beasts",
+        "ac": [13]
+      },
+      {
+        "name": "Swarm of tiny constructs",
+        "ac": [14]
+      },
+      {
+        "name": "Swarm of tiny fey",
+        "ac": [13]
+      },
+      {
+        "name": "Undead",
+        "ac": [11, 16]
+      }
+    ]
+  },
+  {
+    "cr": "15",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [18]
+      },
+      {
+        "name": "Celestial",
+        "ac": [18]
+      },
+      {
+        "name": "Dragon",
+        "ac": [19]
+      },
+      {
+        "name": "Elemental",
+        "ac": [19]
+      },
+      {
+        "name": "Fiend",
+        "ac": [17]
+      },
+      {
+        "name": "Swarm of tiny elementals",
+        "ac": [17]
+      }
+    ]
+  },
+  {
+    "cr": "6",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [16]
+      },
+      {
+        "name": "Beast",
+        "ac": [15]
+      },
+      {
+        "name": "Construct",
+        "ac": [16]
+      },
+      {
+        "name": "Dragon",
+        "ac": [15, 16, 17]
+      },
+      {
+        "name": "Elemental",
+        "ac": [15]
+      },
+      {
+        "name": "Fey",
+        "ac": [15, 16, 17]
+      },
+      {
+        "name": "Fiend",
+        "ac": [13, 15, 16]
+      },
+      {
+        "name": "Giant",
+        "ac": [17]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [17, 18]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Plant",
+        "ac": [17]
+      },
+      {
+        "name": "Swarm of medium undead",
+        "ac": [16]
+      },
+      {
+        "name": "Swarm of tiny beasts",
+        "ac": [15]
+      },
+      {
+        "name": "Undead",
+        "ac": [14, 15, 17]
+      }
+    ]
+  },
+  {
+    "cr": "5",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Beast",
+        "ac": [14, 15, 16]
+      },
+      {
+        "name": "Celestial",
+        "ac": [14, 15, 16]
+      },
+      {
+        "name": "Construct",
+        "ac": [15, 16]
+      },
+      {
+        "name": "Dragon",
+        "ac": [15, 16]
+      },
+      {
+        "name": "Fey",
+        "ac": [15, 18]
+      },
+      {
+        "name": "Fiend",
+        "ac": [15, 17]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [14, 15, 16, 17, 18]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [14, 15, 16, 17]
+      },
+      {
+        "name": "Ooze",
+        "ac": [12]
+      },
+      {
+        "name": "Plant",
+        "ac": [15, 17]
+      },
+      {
+        "name": "Undead",
+        "ac": [11, 12, 15, 16]
+      }
+    ]
+  },
+  {
+    "cr": "2",
+    "types": [
+      {
+        "name": "Beast",
+        "ac": [14]
+      },
+      {
+        "name": "Celestial",
+        "ac": [14]
+      },
+      {
+        "name": "Construct",
+        "ac": [12, 13]
+      },
+      {
+        "name": "Dragon",
+        "ac": [13, 16, 17]
+      },
+      {
+        "name": "Elemental",
+        "ac": [13, 14]
+      },
+      {
+        "name": "Fey",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Fiend",
+        "ac": [14]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Plant",
+        "ac": [13]
+      },
+      {
+        "name": "Swarm of tiny monstrosities",
+        "ac": [15]
+      },
+      {
+        "name": "Undead",
+        "ac": [13]
+      }
+    ]
+  },
+  {
+    "cr": "1/4",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [14]
+      },
+      {
+        "name": "Beast",
+        "ac": [13, 14]
+      },
+      {
+        "name": "Construct",
+        "ac": [13, 14, 15]
+      },
+      {
+        "name": "Fey",
+        "ac": [14]
+      },
+      {
+        "name": "Fiend",
+        "ac": [14]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [12, 13, 14, 15]
+      },
+      {
+        "name": "Ooze",
+        "ac": [13, 15]
+      }
+    ]
+  },
+  {
+    "cr": "17",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [19]
+      },
+      {
+        "name": "Dragon",
+        "ac": [19]
+      },
+      {
+        "name": "Elemental",
+        "ac": [16, 20]
+      },
+      {
+        "name": "Fey",
+        "ac": [17, 18]
+      },
+      {
+        "name": "Fiend",
+        "ac": [18]
+      }
+    ]
+  },
+  {
+    "cr": "9",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [17]
+      },
+      {
+        "name": "Construct",
+        "ac": [18]
+      },
+      {
+        "name": "Dragon",
+        "ac": [17, 18]
+      },
+      {
+        "name": "Elemental",
+        "ac": [17]
+      },
+      {
+        "name": "Fiend",
+        "ac": [14]
+      },
+      {
+        "name": "Giant",
+        "ac": [17]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [12]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [15, 16, 17]
+      },
+      {
+        "name": "Ooze",
+        "ac": [7]
+      },
+      {
+        "name": "Plant",
+        "ac": [16]
+      }
+    ]
+  },
+  {
+    "cr": "14",
+    "types": [
+      {
+        "name": "Construct",
+        "ac": [17]
+      },
+      {
+        "name": "Dragon",
+        "ac": [18, 19]
+      },
+      {
+        "name": "Fiend",
+        "ac": [19]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [17, 18]
+      }
+    ]
+  },
+  {
+    "cr": "7",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [15, 16]
+      },
+      {
+        "name": "Beast",
+        "ac": [15]
+      },
+      {
+        "name": "Construct",
+        "ac": [14]
+      },
+      {
+        "name": "Dragon",
+        "ac": [16]
+      },
+      {
+        "name": "Elemental",
+        "ac": [16]
+      },
+      {
+        "name": "Fey",
+        "ac": [14, 15]
+      },
+      {
+        "name": "Fiend",
+        "ac": [14, 15, 16, 17]
+      },
+      {
+        "name": "Giant",
+        "ac": [15]
+      },
+      {
+        "name": "Humanoid",
+        "ac": [16, 18]
+      },
+      {
+        "name": "Plant",
+        "ac": [16]
+      },
+      {
+        "name": "Swarm of tiny elementals",
+        "ac": [15]
+      },
+      {
+        "name": "Undead",
+        "ac": [15]
+      }
+    ]
+  },
+  {
+    "cr": "1/8",
+    "types": [
+      {
+        "name": "Beast",
+        "ac": [13]
+      },
+      {
+        "name": "Fey",
+        "ac": [12]
+      },
+      {
+        "name": "Monstrosity",
+        "ac": [13]
+      },
+      {
+        "name": "Undead",
+        "ac": [13]
+      }
+    ]
+  },
+  {
+    "cr": "21",
+    "types": [
+      {
+        "name": "Fey",
+        "ac": [15]
+      },
+      {
+        "name": "Fiend",
+        "ac": [17, 20]
+      }
+    ]
+  },
+  {
+    "cr": "22",
+    "types": [
+      {
+        "name": "Dragon",
+        "ac": [20, 22]
+      },
+      {
+        "name": "Fiend",
+        "ac": [19]
+      },
+      {
+        "name": "Giant",
+        "ac": [20]
+      }
+    ]
+  },
+  {
+    "cr": "27",
+    "types": [
+      {
+        "name": "Fiend",
+        "ac": [19]
+      }
+    ]
+  },
+  {
+    "cr": "23",
+    "types": [
+      {
+        "name": "Fiend",
+        "ac": [21]
+      }
+    ]
+  },
+  {
+    "cr": "25",
+    "types": [
+      {
+        "name": "Fiend",
+        "ac": [20]
+      }
+    ]
+  },
+  {
+    "cr": "24",
+    "types": [
+      {
+        "name": "Dragon",
+        "ac": [22]
+      },
+      {
+        "name": "Fiend",
+        "ac": [19]
+      }
+    ]
+  },
+  {
+    "cr": "13",
+    "types": [
+      {
+        "name": "Beast",
+        "ac": [15]
+      },
+      {
+        "name": "Construct",
+        "ac": [18]
+      },
+      {
+        "name": "Fiend",
+        "ac": [18]
+      },
+      {
+        "name": "Undead",
+        "ac": [16, 18, 19]
+      }
+    ]
+  },
+  {
+    "cr": "16",
+    "types": [
+      {
+        "name": "Dragon",
+        "ac": [18, 19]
+      },
+      {
+        "name": "Fey",
+        "ac": [17, 18]
+      }
+    ]
+  },
+  {
+    "cr": "18",
+    "types": [
+      {
+        "name": "Dragon",
+        "ac": [20]
+      },
+      {
+        "name": "Fey",
+        "ac": [18]
+      }
+    ]
+  },
+  {
+    "cr": "20",
+    "types": [
+      {
+        "name": "Undead",
+        "ac": [20]
+      }
+    ]
+  },
+  {
+    "cr": "19",
+    "types": [
+      {
+        "name": "Aberration",
+        "ac": [18]
+      },
+      {
+        "name": "Giant",
+        "ac": [19]
+      }
+    ]
+  },
+  {
+    "cr": "26",
+    "types": [
+      {
+        "name": "Monstrosity",
+        "ac": [25]
+      }
+    ]
+  }
+]

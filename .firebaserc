@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "prod": "rpg-tavern-app-es"
+  },
+  "targets": {
+    "rpg-tavern-app-es": {
+      "hosting": {
+        "rpg-tavern-app": [
+          "rpg-tavern-app-es"
+        ]
+      }
+    }
+  }
+}

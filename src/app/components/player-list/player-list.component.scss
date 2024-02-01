@@ -1,0 +1,23 @@
+.player-list{
+    height: 100%;
+    width: 100%;
+    ::ng-deep .owl-theme, .owl-carousel{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .owl-stage-outer{
+            display: block;
+            flex:1 0 auto !important;
+            ::ng-deep div{
+                height: 100%;
+                .owl-stage{
+                    height: 100%;
+                }
+            }
+        }
+        .owl-dots{
+            display: block;
+            flex: 0 1 auto !important;
+        }
+    }
+}

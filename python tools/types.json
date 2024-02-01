@@ -1,0 +1,227 @@
+{
+    "1/8": [
+        "beast", "fey", "monstrosity", "undead"
+    ],
+    "1/4": [
+        "aberration",
+        "beast",
+        "construct",
+        "fey",
+        "fiend",
+        "humanoid",
+        "ooze"
+    ],
+    "1/2": [
+        "beast",
+        "construct",
+        "dragon",
+        "fey",
+        "humanoid",
+        "monstrosity",
+        "plant",
+        "undead"
+    ],
+    "1": [
+        "beast",
+        "construct",
+        "dragon",
+        "elemental",
+        "fey",
+        "humanoid",
+        "monstrosity",
+        "plant",
+        "undead"
+    ],
+
+    "2": [
+        "beast",
+        "celestial",
+        "construct",
+        "dragon",
+        "elemental",
+        "fey",
+        "fiend",
+        "humanoid",
+        "monstrosity",
+        "plant",
+        "swarm of Tiny monstrosities",
+        "undead"
+    ],
+    "3": [
+        "Swarm of Tiny constructs",
+        "aberration",
+        "beast",
+        "construct",
+        "dragon",
+        "fey",
+        "giant",
+        "humanoid",
+        "monstrosity",
+        "plant",
+        "swarm of Tiny beasts",
+        "swarm of Tiny fey",
+        "undead"
+    ],
+    "4": [
+        "Swarm of Tiny beasts",
+        "aberration",
+        "beast",
+        "celestial",
+        "dragon",
+        "fey",
+        "giant",
+        "humanoid",
+        "monstrosity",
+        "ooze",
+        "plant",
+        "swarm of Tiny aberrations",
+        "swarm of Tiny beasts",
+        "swarm of tiny beasts",
+        "undead"
+    ],
+    "5": [
+        "aberration",
+        "beast",
+        "celestial",
+        "construct",
+        "dragon",
+        "fey",
+        "fiend",
+        "humanoid",
+        "monstrosity",
+        "ooze",
+        "plant",
+        "undead"
+    ],
+    "6": [
+        "aberration",
+        "beast",
+        "construct",
+        "dragon",
+        "elemental",
+        "fey",
+        "fiend",
+        "giant",
+        "humanoid",
+        "monstrosity",
+        "plant",
+        "swarm of Medium undead",
+        "swarm of tiny beasts",
+        "undead"
+    ],
+    "7": [
+        "aberration",
+        "beast",
+        "construct",
+        "dragon",
+        "elemental",
+        "fey",
+        "fiend",
+        "giant",
+        "humanoid",
+        "plant",
+        "swarm of Tiny elementals",
+        "undead"
+    ],
+    "8": [
+        "aberration",
+        "beast",
+        "celestial",
+        "construct",
+        "dragon",
+        "elemental",
+        "fey",
+        "fiend",
+        "giant",
+        "humanoid",
+        "monstrosity",
+        "plant",
+        "undead"
+    ],
+    "9": [
+        "humanoid",
+        "aberration",
+        "construct",
+        "dragon",
+        "elemental",
+        "fiend",
+        "giant",
+        "monstrosity",
+        "ooze",
+        "plant"
+    ],
+    "10": [
+        "celestial",
+        "construct",
+        "elemental",
+        "fey",
+        "fiend",
+        "swarm of Tiny undead"
+    ],
+    "11": [
+        "aberration",
+        "beast",
+        "celestial",
+        "construct",
+        "dragon",
+        "fey",
+        "fiend",
+        "plant",
+        "undead"
+    ],
+    "12": [
+        "beast",
+        "celestial",
+        "construct",
+        "dragon",
+        "fey",
+        "fiend",
+        "giant",
+        "monstrosity",
+        "undead"
+    ],
+    "13": [
+        "beast", "construct", "fiend", "undead"
+    ],
+    "14": [
+        "construct", "dragon", "fiend", "monstrosity"
+    ],
+    "15": [
+        "aberration",
+        "celestial",
+        "dragon",
+        "elemental",
+        "fiend",
+        "swarm of Tiny elementals"
+    ],
+    "16": [
+        "dragon", "fey"
+    ],
+    "17": [
+        "aberration",
+        "dragon",
+        "elemental",
+        "fey",
+        "fiend"
+    ],
+    "18": [
+        "dragon", "fey"
+    ],
+    "19": [
+        "aberration", "giant"
+    ],
+    "20": ["undead"],
+    "21": [
+        "fey", "fiend"
+    ],
+    "22": [
+        "dragon", "fiend", "giant"
+    ],
+    "23": ["fiend"],
+    "24": [
+        "dragon", "fiend"
+    ],
+    "25": ["fiend"],
+    "26": ["monstrosity"],
+    "27": ["fiend"]
+}

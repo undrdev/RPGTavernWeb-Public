@@ -1,0 +1,31 @@
+<div class="combatList">
+    <div class="combatControls">
+      <button type="button" mat-raised-button color="primary" (click)="this.NextCombatant()">Next Turn</button>
+      <mat-slide-toggle [(ngModel)]="this.removeWhenDead" (change)="this.CheckCombatants()">Remove Monsters on Death?</mat-slide-toggle>
+    </div>
+    <div [class]="this.layout + ' innerFlex'">
+      <div [class]="this.layout + ' mat-table ' + (this.showCard ? 'half' : 'whole')" *ngIf="this.combatants.length > 0" [@pageFade]>
+        <div class="mat-header-row">
+          <div class="mat-header-cell combatName">Name</div>
+          <div class="mat-header-cell combatHp">Hit Points</div>
+          <div class="mat-header-cell combatInit">Initiative</div>
+          <div class="mat-header-cell combatSelect"></div>
+        </div>
+        <div [@rowInOut] [class]="(combatant.hit_points <= 0 ? 'dead' : '') +' mat-row'" *ngFor="let combatant of this.combatants">
+          <div class="mat-cell combatName cap">{{combatant.name}}</div>
+          <div class="mat-cell combatHp">
+            <mat-form-field class="tableInput">
+              <input matInput type="number" [(ngModel)]="combatant.hit_points" (change)="this.CheckHp(combatant)"/>
+            </mat-form-field>
+          </div>
+          <div class="mat-cell combatInit">{{combatant.init}}</div>
+          <div class="mat-cell combatSelect">
+            <button mat-raised-button color="accent" *ngIf="combatant.monster" (click)="this.SelectMonster(combatant.monster)">View</button>
+          </div>
+        </div>
+      </div>
+      <div [class]="this.layout + ' monsterDetail'" [@slideIn]="showMonster ?'show' : 'hide'" [@fadeIn]="showCard ? 'show' : 'hide'" (@slideIn.done)="ShowHideFinished()">
+          <app-monster-card *ngIf="this.showMonster" [selectedMonster]="this.selectedMonster" [skillString]="this.skillString" (clearMonster)="ClearMonster($event)"></app-monster-card>
+      </div>
+    </div>
+  </div>

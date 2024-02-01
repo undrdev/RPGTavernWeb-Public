@@ -1,0 +1,94 @@
+
+@import "../styles.scss";
+
+.flex-fill{
+  flex: 1 1 auto;
+  align-self: center;
+}
+
+mat-toolbar {
+  background: $app-primary;
+  color: white;
+}
+
+mat-sidenav {
+  margin: 16px;
+  width: 200px;
+  border-right: none;
+  background: $app-primary;
+  color: white;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+
+.content {
+  height: calc(100vh - 98px);
+  border-radius: 10px;
+  margin: 16px;
+  margin-left: 32px;
+  font-size: 2rem;
+  color: lightgray;
+  overflow: hidden;
+  &.mobile{
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    margin:0;
+  }
+}
+
+mat-sidenav-container {
+  height: calc(100vh - 65px);
+}
+
+.menu-button.mat-button.mat-button-base {
+  width: 100%;
+  padding: 0;
+  font-size: 1rem;
+  &::ng-deep .mat-button-wrapper{
+    width: 100%;
+    padding: 0;
+    a, a:visited{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      color: black;
+      &.active{
+        color: $app-primary;
+      }
+    }
+  }
+}
+
+.login-button.mat-button.mat-button-base {
+  width: 100%;
+  padding: 0;
+  font-size: 1rem;
+  &::ng-deep .mat-button-wrapper{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+}
+
+.avatar {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.signin-icon{
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.login-title{
+  margin: 16px 16px 0px 16px;
+}

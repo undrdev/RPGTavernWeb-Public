@@ -1,0 +1,14 @@
+<div id="content" [class]="this.layout">
+  <mat-tab-group [headerPosition]="this.layout == 'full' ? '' : 'below'"  mat-align-tabs="center">
+    <mat-tab #tab label="Characters">
+      <app-player-form [layout]="this.layout" (AddPlayer)="AddPlayer($event)"></app-player-form>
+      <app-player-list [layout]="this.layout" [players]="this.players" (removePlayer)="RemovePlayer($event)"></app-player-list>
+    </mat-tab>
+    <mat-tab #tab label="Monsters" [disabled]="this.players.length == 0">
+      <app-monster-form [layout]="this.layout" [players]="this.players" (generateCombat)="GenerateCombat($event)"></app-monster-form>
+    </mat-tab>
+    <mat-tab #tab label="Combat" [disabled]="this.combatants.length == 0">
+      <app-combat-list [layout]="this.layout" [combatants]="this.combatants"></app-combat-list>
+    </mat-tab>
+  </mat-tab-group>
+</div>

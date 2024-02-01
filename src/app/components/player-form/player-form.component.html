@@ -1,0 +1,22 @@
+<form [class]="this.layout + ' vertForm'" [formGroup]="this.playerFormGroup" (ngSubmit)="SavePlayer()">
+    <ng-template matStepLabel>Players</ng-template>
+    <mat-form-field>
+      <mat-label>Name</mat-label>
+      <input matInput type="text" formControlName="name" [(ngModel)]="this.playerName"/>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Level</mat-label>
+      <input matInput type="number" formControlName="level" [(ngModel)]="this.playerLevel"/>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Hit Points</mat-label>
+      <input matInput type="number" formControlName="hp" [(ngModel)]="this.playerHP"/>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Initiative</mat-label>
+      <input matInput type="number" formControlName="init" [(ngModel)]="this.playerInit">
+    </mat-form-field>
+    <div class="button w-100">
+      <button mat-raised-button color="primary" type="submit" class="w-100">Add Player</button>
+    </div>
+  </form>

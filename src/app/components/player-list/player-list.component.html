@@ -1,0 +1,12 @@
+<owl-carousel-o [options]="customOptions" class="player-list">
+  <ng-template carouselSlide *ngFor="let player of this.players">
+    <div class="slide">
+      <app-player-card [player]="player" (RemovePlayer)="RemovePlayer($event)"></app-player-card>
+    </div>
+  </ng-template>
+</owl-carousel-o>
+<!-- <mat-grid-list class="player-list" [cols]="this.layout == 'handset' ? 1 : 2" rowHeight="100%">
+    <mat-grid-tile *ngFor="let player of this.players" class="playerTile" @fade>
+      
+    </mat-grid-tile>
+  </mat-grid-list> -->
